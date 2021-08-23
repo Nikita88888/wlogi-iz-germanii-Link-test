@@ -235,7 +235,7 @@ body {
 /*--------------------------------------------------*/
 /*Handy version*/
 
-@media (max-width: 528px) {
+@media (max-width: 550px) {
     
     body {
         height: 100vh;
