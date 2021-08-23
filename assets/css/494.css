@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #10101E;
+}
+
+.btn_box {
+    color: white;
+    background: #10101E;
+    font-family: "Segoe UI", sans-serif;
+    width: 250px;
+    padding: 15px 100px;
+    border: 3px solid #2E94E3;
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+}
+
+.btn_box:hover {
+    /*background: #2E94E3;*/
+    box-shadow: 0 0 30px #2E94E3;
+}
+
+#profil {
+    border-radius: 90px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+#titel {
+    letter-spacing: 0.5px;
+    font-size: 1.5rem;
+}
+
+#youtube {
+    position: relative;
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #851010, #fa0000);
+}
+
+#instagram {
+    position: relative;
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #755bea, #ff72c0);
+}
+
+#tiktok {
+    position: relative;
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #157a15, #00ff00);
+}
+
+#youtube_2 {
+    position: relative;
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}

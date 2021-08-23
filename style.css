@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #10101E;
+}
+
+.main {
+    margin-top: 240vh;
+}
+
+.btn_box {
+    color: white;
+    background: #10101E;
+    font-family: "Segoe UI", sans-serif;
+    width: 300px;
+    padding: 15px 100px;
+    border: 3px solid #2E94E3;
+    border-radius: 5px;
+    /*-webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));*/
+}
+
+.btn_box:hover {
+    /*background: #2E94E3;*/
+    box-shadow: 0 0 30px #2E94E3;
+}
+
+#profil {
+    border-radius: 90px;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+#titel {
+    letter-spacing: 3px;
+    font-size: 1.7rem;
+}
+
+#youtube {
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #851010, #fa0000);
+}
+
+#instagram {
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #755bea, #ff72c0);
+}
+
+#tiktok {
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #157a15, #00ff00);
+}
+
+#youtube_2 {
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+
+/*Aqua global box*/
+
+
+.aqua_global_box {
+    margin-bottom: 20vh;
+
+    color: white;
+    background: #10101E;
+    font-family: "Segoe UI", sans-serif;
+    width: 300px;
+    padding: 15px 100px;
+    border: 3px solid #2E94E3;
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+}
+
+.aqua_global_box:hover {
+    /*background: #2E94E3;*/
+    box-shadow: 0 0 30px #2E94E3;
+}
+
+#aqua_global_icon {
+    border-radius: 90px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    width: 100px;
+}
+
+#titel_aqua_global {
+    margin-left: 20%;
+    letter-spacing: 3px;
+    font-size: 1.4rem;
+}
+
+/*Start all button*/
+
+/*aqua_global_btn_box_1*/
+#aqua_global_pure_nino_mini_touch_1 {
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+#aqua_global_pure_nino_mini_touch_2, #aqua_global_pure_nino_mini_touch_3 {
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+/*aqua_global_btn_box_2*/
+#aqua_global_pure_nino_flexible_Touch_1 {
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+#aqua_global_pure_nino_flexible_Touch_2, #aqua_global_pure_nino_flexible_Touch_3, #aqua_global_pure_nino_flexible_Touch_4 {
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+/*aqua_global_btn_box_3*/
+#aqua_global_hydrogenflasche_schwarz {
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+#aqua_global_hydrogenflasche_weiss {
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+/*End all button*/
+
+#aqua_global_img_pure_nino_mini_touch, #aqua_global_img_pure_nino_flexible_touch, #aqua_global_img_hydrogenflasche_schwarz {
+    width: 85px;
+}
+
+#info_text_aqua_global {
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+}
+/*--------------------------------------------------*/
+/*Handy version*/
+
+@media (max-width: 528px) {
+    
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #10101E;
+    }
+
+    .main {
+        margin-top: 280vh;
+    }
+
+    .btn_box {
+        margin-left: 2.8%;
+
+        color: white;
+        background: #10101E;
+        font-family: "Segoe UI", sans-serif;
+        width: 200px;
+        padding: 15px 100px;
+        border: 3px solid #2E94E3;
+        border-radius: 5px;
+    }
+    
+    .btn_box:hover {
+        box-shadow: none;
+    }
+
+    #profil {
+        border-radius: 90px;
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    #titel {
+        letter-spacing: 2px;
+        font-size: 1.4rem;
+    }
+
+    #youtube {
+        position: relative;
+        display: inline-block;
+        padding: 12px 36px;
+        margin: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #851010, #fa0000);
+    }
+
+    #instagram {
+        position: relative;
+        display: inline-block;
+        padding: 12px 36px;
+        margin: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #755bea, #ff72c0);
+    }
+
+    #tiktok {
+        position: relative;
+        display: inline-block;
+        padding: 12px 36px;
+        margin: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #157a15, #00ff00);
+    }
+
+    #youtube_2 {
+        position: relative;
+        display: inline-block;
+        padding: 12px 36px;
+        margin: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+
+    /*Aqua global box*/
+
+
+    .aqua_global_box {
+        margin-bottom: 20vh;
+        margin-left: 2.8%;
+    
+        color: white;
+        background: #10101E;
+        font-family: "Segoe UI", sans-serif;
+        width: 200px;
+        padding: 15px 100px;
+        border: 3px solid #2E94E3;
+        border-radius: 5px;
+        -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+    }
+    
+    .aqua_global_box:hover {
+        box-shadow: none;
+    }
+
+    #aqua_global_icon {
+        border-radius: 90px;
+        margin-left: 2.5rem;
+        margin-top: 2rem;
+        width: 100px;
+    }
+
+    #titel_aqua_global {
+        margin-left: 10%;
+        letter-spacing: 3px;
+        font-size: 1.4rem;
+    }
+
+    /*Start all button*/
+
+    /*aqua_global_btn_box_1*/
+    #aqua_global_pure_nino_mini_touch_1 {
+        position: relative;
+        display: inline-block;
+        padding: 10px 25px;
+        margin: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+    #aqua_global_pure_nino_mini_touch_2, #aqua_global_pure_nino_mini_touch_3 {
+        position: relative;
+        display: inline-block;
+        padding: 10px 25px;
+        margin: 10px 50px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+    /*aqua_global_btn_box_2*/
+    #aqua_global_pure_nino_flexible_Touch_1 {
+        position: relative;
+        display: inline-block;
+        padding: 10px 25px;
+        margin: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+    #aqua_global_pure_nino_flexible_Touch_2, #aqua_global_pure_nino_flexible_Touch_3, #aqua_global_pure_nino_flexible_Touch_4 {
+        position: relative;
+        display: inline-block;
+        padding: 10px 25px;
+        margin: 10px 50px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+    /*aqua_global_btn_box_3*/
+    #aqua_global_hydrogenflasche_schwarz {
+        position: relative;
+        display: inline-block;
+        padding: 10px 25px;
+        margin: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+    #aqua_global_hydrogenflasche_weiss {
+        position: relative;
+        display: inline-block;
+        padding: 10px 25px;
+        margin: 10px 50px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 2px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+    }
+
+    /*End all button*/
+
+    #aqua_global_img_pure_nino_mini_touch, #aqua_global_img_pure_nino_flexible_touch {
+        width: 35px;
+    }
+    
+    #aqua_global_img_hydrogenflasche_schwarz {
+        width: 0px; /*----------WICHTIG----------*/
+    }
+
+    #info_text_aqua_global {
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+    }
+} 
