@@ -4,15 +4,16 @@
 }
 
 body {
-    height: 120vh;
+    /*height: 120vh;*/
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: #10101E;
+    /*align-items: center;*/
+    background: url("assets/img/bg.png");
+    background-repeat: no-repeat;
 }
 
 .main {
-    margin-top: 240vh;
+    margin-top: 5vh;
 }
 
 .btn_box {
@@ -95,7 +96,7 @@ body {
     font-size: 15px;
     letter-spacing: 2px;
     border-radius: 40px;
-    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    background: linear-gradient(90deg, #851010, #fa0000);
 }
 
 
@@ -112,7 +113,7 @@ body {
     padding: 15px 100px;
     border: 3px solid #2E94E3;
     border-radius: 5px;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+    /*-webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));*/
 }
 
 .aqua_global_box:hover {
@@ -222,6 +223,20 @@ body {
     background: linear-gradient(90deg, #0162c8, #55e7fc);
 }
 
+#aqua_global_video {
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
 /*End all button*/
 
 #aqua_global_img_pure_nino_mini_touch, #aqua_global_img_pure_nino_flexible_touch, #aqua_global_img_hydrogenflasche_schwarz {
@@ -238,7 +253,7 @@ body {
 @media (max-width: 550px) {
     
     body {
-        height: 100vh;
+        /*height: 100vh;*/
         display: flex;
         justify-content: center;
         align-items: center;
@@ -246,7 +261,7 @@ body {
     }
 
     .main {
-        margin-top: 280vh;
+        margin-top: 5vh;
     }
 
     .btn_box {
@@ -458,8 +473,12 @@ body {
 
     /*End all button*/
 
-    #aqua_global_img_pure_nino_mini_touch, #aqua_global_img_pure_nino_flexible_touch {
+    #aqua_global_img_pure_nino_mini_touch {
         width: 35px;
+    }
+
+    #aqua_global_img_pure_nino_flexible_touch {
+        width: 30px;
     }
     
     #aqua_global_img_hydrogenflasche_schwarz {
